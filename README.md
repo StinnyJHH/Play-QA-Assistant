@@ -2,7 +2,7 @@
 
 ## Background
 
-This application was specifically used to organize Google Sheets data (where QA was processed).
+This Python application was specifically used to organize Google Sheets data (where QA was processed).
 Prior to this application, devs and project manager would have to manually update and relocate known bugs and debugged bugs. 
 
 ## Automate and Improve QA process
