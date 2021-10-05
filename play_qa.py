@@ -187,7 +187,7 @@ if len(confirmed) != 0:
       {
         'insertDimension':{
           'range':{
-            "sheetId": 968277797,
+            "sheetId": --SHEET ID HERE--,
             "dimension": 'ROWS',
             "startIndex": 0,
             "endIndex": 1
@@ -212,7 +212,7 @@ if len(confirmed) != 0:
       {
         'insertDimension':{
           'range':{
-            "sheetId": --omitted--,
+            "sheetId": --SHEET ID HERE--,
             "dimension": 'ROWS',
             "startIndex": 1,
             "endIndex": 1
@@ -243,7 +243,7 @@ if len(rows_to_remove) != 0:
       {
         'deleteDimension':{
           'range':{
-            "sheetId": --omitted--,
+            "sheetId": --SHEET ID HERE--,
             "dimension": 'ROWS',
             "startIndex": row-count,
             "endIndex": row+1-count
@@ -337,7 +337,7 @@ request_body = {
                 "sourceRange": {
                   "sources": [
                     {
-                      "sheetId": '--omitted',
+                      "sheetId": '--SHEET ID HERE--',
                       "startRowIndex": 0,
                       "endRowIndex": len(devs)+1,
                       "startColumnIndex": 1,
